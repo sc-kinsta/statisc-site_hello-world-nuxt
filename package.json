@@ -8,6 +8,14 @@
   },
   "dependencies": {
     "nuxt": "^3.0.0",
-    "serve": "^14.1.2"
+    "serve": "^14.1.2",
+        "react": "^18",
+    "react-dom": "^18",
+    "serve": "^14.2.1"
+  }
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
   }
 }
