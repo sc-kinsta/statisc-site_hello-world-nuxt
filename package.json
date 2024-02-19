@@ -1,9 +1,11 @@
-
+{
 "name": "TrailerPark",
 "version": "1.0.0",
 "private": true,
 "scripts": {
 "dev": "npm run dev-v2",
+"dev-v2": "API_URL=https://wordpress.trailerpark.com/wp-json/wp/v2/ NUXT_ENV_API_BASE_URL=https://wordpress.trailerpark.com NUXT_ENV_CDN_URL=https://av.trailerpark.com nuxt",
+"build": "API_URL=https://wordpress.trailerpark.com/wp-json/wp/v2/ NUXT_ENV_API_BASE_URL=https://wordpress.trailerpark.com NUXT_ENV_CDN_URL=https://av.trailerpark.com nuxt build",
 "start": "nuxt start",
 "generate": "nuxt generate"
 },
