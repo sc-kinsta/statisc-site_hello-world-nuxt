@@ -1,21 +1,32 @@
-{
-  "name": "my-app",
-  "scripts": {
-    "dev": "nuxt build && nuxt start",
-    "build": "nuxt generate",
-    "generate": "nuxt generate",
-    "start": "serve ./.output/public"
-  },
-  "dependencies": {
-    "nuxt": "^3.0.0",
-    "serve": "^14.1.2",
-        "react": "^18",
-    "react-dom": "^18",
-    "serve": "^14.2.1"
-  }
-  "devDependencies": {
-    "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3"
-  }
+
+"name": "TrailerPark",
+"version": "1.0.0",
+"private": true,
+"scripts": {
+"dev": "npm run dev-v2",
+"start": "nuxt start",
+"generate": "nuxt generate"
+},
+"dependencies": {
+"@nuxtjs/axios": "^5.12.0",
+"body-scroll-lock": "^3.0.3",
+"bootstrap": "^4.5.0",
+"bootstrap-vue": "^2.15.0",
+"dom-to-image": "^2.6.0",
+"entities": "^3.0.1",
+"gsap": "^3.5.1",
+"moment": "^2.29.1",
+"nuxt": "^2.14.0",
+"nuxt-facebook-pixel-module": "^1.5.0",
+"sass": "^1.69.5",
+"sass-loader": "^9.0.3",
+"v-clipboard": "^2.2.3",
+"v-scroll-lock": "^1.2.0",
+"video-js": "^0.7.0",
+"video.js": "^7.0.3",
+"vue-cookies": "^1.7.4",
+"vue-scroll": "^2.1.13",
+"vue-scrollto": "^2.19.1"
+},
+"devDependencies": {}
 }
